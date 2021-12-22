@@ -1,0 +1,19 @@
+{
+  "name": "storybook-urlargs-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.5.0-alpha.4",
+    "@storybook/addon-essentials": "^6.5.0-alpha.4",
+    "@storybook/addon-links": "^6.5.0-alpha.4",
+    "@storybook/html": "^6.5.0-alpha.4",
+    "babel-loader": "^8.2.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
